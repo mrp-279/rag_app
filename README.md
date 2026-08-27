@@ -1,4 +1,3 @@
-# rag_app
 # RAG App
 
 A toy Retrieval-Augmented Generation (RAG) app: upload a PDF, it gets chunked and embedded into a local Chroma vector store, and you can then ask questions answered from that document using a local LLM via [Ollama](https://ollama.com).
@@ -38,4 +37,3 @@ The app serves at `http://localhost:8080`.
 ## Configuration
 
 See `.env.example` for the available environment variables (temp upload folder, Chroma storage path, collection name, LLM model, embedding model).
-
