@@ -1,6 +1,7 @@
-# RAG App
+# RAG (Retrival Augmented Generation) App
 
 A toy Retrieval-Augmented Generation (RAG) app: upload a PDF, it gets chunked and embedded into a local Chroma vector store, and you can then ask questions answered from that document using a local LLM via [Ollama](https://ollama.com).
+This is a fork from https://github.com/mrp-279/rag-tutorial-v2 with a web ui frontend built in flask.
 
 ## Prerequisites
 
